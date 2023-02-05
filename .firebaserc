@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "zhyvogray",
+    "zhyvogray": "zhyvogray-c9090"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,13 +1,689 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media screen and (max-width: 2000px)/*desktop*/ {
+    body {
+        margin: 0;
+        background-image: linear-gradient( rgb(255, 255, 255), rgba(0, 255, 255, 0.4));
+    }
+    h6 {
+        display: none;
+    }
+    .h2_ {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .h2_delivery {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .h2_top {
+        padding-top: 30px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+    .h2_about1 {
+        padding-right: 75px;
+        padding-left: 75px;
+        padding-top: 50px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+    .toptext {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        padding-top: 50px;
+    }
+    .main_window {
+        padding-top: 6px;
+        margin-bottom: 106px;
+    }
+    .contact_window {
+        padding-top: 6px;
+        margin-bottom: 245px;
+    }
+    .delivery_window {
+        padding-top: 6px;
+        margin-bottom: 76px;
+    }
+    .about_window {
+        padding-top: 6px;
+        margin-bottom: 35px;
+    }
+    .button_ {
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+        margin-left: 25px;
+    }
+    .main {
+        margin-left: 630px;
+    }
+    .account {
+        margin-left: 45px;
+    }
+    .about {
+        margin-left: 45px;
+    }
+    .contact {
+        margin-left: 45px;
+    }
+    .delivery {
+        margin-left: 45px;
+    }
+    .main_pic {
+        width: 850px;
+        height: 600px;
+        padding-left: 540px;
+        padding-top: 50px;
+    }
+    .img_vodafone {
+        width: 180px;
+        height: 120px;
+        padding-left: 700px;
+        padding-top: 50px;
+        float: left;
+    }
+    .text_vodafone {
+        padding-top: 96px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_kyivstar {
+        height: 100px;
+        width: 100px;
+        padding-left: 740px;
+        padding-top: 50px;
+        float: left;
+        clear: both;
+    }
+    .text_kyivstar {
+        padding-top: 115px;
+        padding-left: 883px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_facebook {
+        height: 100px;
+        width: 100px;
+        padding-left: 40px;
+        padding-top: 50px;
+        clear: both;
+    }
+    .img_instagram {
+        height: 100px;
+        width: 100px;
+        padding-left: 750px;
+        padding-top: 250px;
+        clear: both;
+    }
+    .img_telegtam {
+        height: 100px;
+        width: 100px;
+        padding-left: 40px;
+        padding-top: 150px;
+        clear: both;
+    }
+    .img_map {
+        height: 690px;
+        width: 400;
+        padding-left: 350px;
+        padding-top: 10px;
+        clear: both;
+    }
+    .img_pumps_and_tanks {
+        height: 627px;
+        width: 363;
+        padding-top: 30px;
+        padding-left: 240px;
+    }
+    .img_all {
+        height: 627px;
+        width: 363;
+        padding-top: 30px;
+        padding-left: 240px;
+    }
+    .img_clean_and_refuel {
+        height: 627px;
+        width: 363;
+        padding-top: 30px;
+        padding-left: 240px;
+    }
+    .img_filters {
+        height: 627px;
+        width: 363;
+        padding-top: 30px;
+        padding-left: 240px;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 1300px)/*notebook*/ {
+    .button_ {
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+        margin-left: 25px;
+        width: 75px;
+        height: 18px;
+    }
+    .main {
+        margin-left: 350px;
+    }
+    .account {
+        margin-left: 45px;
+    }
+    .about {
+        margin-left: 45px;
+    }
+    .contact {
+        margin-left: 45px;
+    }
+    .delivery {
+        margin-left: 45px;
+    }
+
+    .contact_window {
+        padding-top: 6px;
+        margin-bottom: 170px;
+    }
+
+    .img_vodafone {
+        width: 180px;
+        height: 120px;
+        padding-left: 470px;
+        padding-top: 50px;
+        float: left;
+    }
+    .text_vodafone {
+        padding-top: 96px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_kyivstar {
+        height: 100px;
+        width: 100px;
+        padding-left: 510px;
+        padding-top: 50px;
+        float: left;
+        clear: both;
+    }
+    .text_kyivstar {
+        padding-top: 115px;
+        padding-left: 650px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_facebook {
+        height: 100px;
+        width: 100px;
+        padding-left: 40px;
+        padding-top: 50px;
+        clear: both;
+    }
+    .img_instagram {
+        height: 100px;
+        width: 100px;
+        padding-left: 490px;
+        padding-top: 100px;
+        clear: both;
+    }
+    .img_telegtam {
+        height: 100px;
+        width: 100px;
+        padding-left: 40px;
+        padding-top: 150px;
+        clear: both;
+    }
+
+    .main_pic {
+        width: 750px;
+        height: 520px;
+        padding-left: 300px;
+        padding-top: 70px;
+    }
+
+    .img_pumps_and_tanks {
+        height: 501px;
+        width: 320;
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .img_all {
+        height: 501px;
+        width: 320;
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .img_clean_and_refuel {
+        height: 501px;
+        width: 320;
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .img_filters {
+        height: 501px;
+        width: 320;
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .img_map {
+        height: 600px;
+        width: 380;
+        padding-left: 130px;
+        padding-top: 10px;
+        clear: both;
+    }
+
+    .delivery_window {
+        padding-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .h2_delivery {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        font-size: 22px;
+        margin-top: 0px;
+    }
+
+    .h2_top {
+        padding-top: 10px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .h2_about1 {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 45px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .toptext {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        padding-top: 0px;
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .div_bag {
+        height: 35px;
+    }
+}
+
+
+
+@media screen and (max-width: 420px)/*xr*/ {
+    .button_ {
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+        margin-left: 25px;
+        width: 55px;
+        height: 10px;
+        margin-top: 10px;
+    }
+    .main {
+        margin-left: 30px;
+    }
+    .account {
+        margin-left: 17px;
+    }
+    .about {
+        margin-left: 17px;
+    }
+    .contact {
+        margin-left: 17px;
+    }
+    .delivery {
+        margin-left: 17px;
+    }
+    .main_pic {
+        width: 400px;
+        height: 290px;
+        padding-left: 5px;
+        padding-top: 205px;
+    }
+
+    .contact_window {
+        padding-top: 6px;
+        margin-bottom: 250px;
+    }
+
+    .img_vodafone {
+        width: 126px;
+        height: 84px;
+        padding-left: 25px;
+        padding-top: 175px;
+        float: left;
+    }
+    .text_vodafone {
+        padding-top: 200px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_kyivstar {
+        height: 70px;
+        width: 70px;
+        padding-left: 55px;
+        padding-top: 46px;
+        float: left;
+        clear: both;
+    }
+    .text_kyivstar {
+        padding-top: 80px;
+        padding-left: 152px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_facebook {
+        height: 70px;
+        width:  70px;
+        padding-left: 40px;
+        padding-top: 50px;
+        clear: both;
+    }
+    .img_instagram {
+        height: 70px;
+        width: 70px;
+        padding-left: 65px;
+        padding-top: 100px;
+        clear: both;
+    }
+    .img_telegtam {
+        height: 70px;
+        width: 70px;
+        padding-left: 40px;
+        padding-top: 150px;
+        clear: both;
+    }
+
+    .img_pumps_and_tanks {
+        height: 235px;
+        width: 121;
+        padding-top: 90px;
+        padding-left: 17px;
+    }
+
+    .img_map {
+        height: 230px;
+        padding-left: 10px;
+        padding-top: 200px;
+        clear: both;
+    }
+
+    .img_all {
+        height: 235px;
+        width: 121;
+        padding-top: 90px;
+        padding-left: 17px;
+    }
+
+    .img_clean_and_refuel {
+        height: 235px;
+        width: 121;
+        padding-top: 90px;
+        padding-left: 17px;
+    }
+
+    .img_filters {
+        height: 235px;
+        width: 121;
+        padding-top: 90px;
+        padding-left: 17px;
+    }
+
+    .h2_ {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        font-size: 20px;
+        margin-top: 1px;
+    }
+
+    .h2_about1 {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 90px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .h2_delivery {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        font-size: 22px;
+        margin-bottom: 190px;
+        
+    }
+
+    .h2_top {
+        padding-top: 100px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .toptext {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        padding-top: 50px;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 400px)/*12pro*/ {
+    .button_ {
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+        margin-left: 25px;
+        width: 55px;
+        height: 10px;
+        margin-top: 10px;
+    }
+    .main {
+        margin-left: 12px;
+    }
+    .account {
+        margin-left: 22px;
+    }
+    .about {
+        margin-left: 22px;
+    }
+    .contact {
+        margin-left: 22px;
+    }
+    .delivery {
+        margin-left: 22px;
+    }
+
+    .contact_window {
+        padding-top: 6px;
+        margin-bottom: 195px;
+    }
+
+    .img_vodafone {
+        width: 126px;
+        height: 84px;
+        padding-left: 15px;
+        padding-top: 175px;
+        float: left;
+    }
+    .text_vodafone {
+        padding-top: 200px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_kyivstar {
+        height: 70px;
+        width: 70px;
+        padding-left: 45px;
+        padding-top: 46px;
+        float: left;
+        clear: both;
+    }
+    .text_kyivstar {
+        padding-top: 80px;
+        padding-left: 142px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .img_facebook {
+        height: 70px;
+        width:  70px;
+        padding-left: 40px;
+        padding-top: 50px;
+        clear: both;
+    }
+    .img_instagram {
+        height: 70px;
+        width: 70px;
+        padding-left: 50px;
+        padding-top: 100px;
+        clear: both;
+    }
+    .img_telegtam {
+        height: 70px;
+        width: 70px;
+        padding-left: 40px;
+        padding-top: 150px;
+        clear: both;
+    }
+
+    .main_pic {
+        width: 380px;
+        height: 275px;
+        padding-left: 8px;
+        padding-top: 150px;
+    }
+
+    .img_pumps_and_tanks {
+        height: 235px;
+        width: 121;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+
+    .img_map {
+        height: 215px;
+        padding-left: 10px;
+        padding-top: 200px;
+        clear: both;
+    }
+
+    .img_all {
+        height: 235px;
+        width: 121;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .img_clean_and_refuel {
+        height: 235px;
+        width: 121;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .img_filters {
+        height: 235px;
+        width: 121;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .h2_ {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        font-size: 20px;
+        margin-top: 1px;
+    }
+
+    .h2_delivery {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        font-size: 22px;
+        margin-bottom: 131px;
+        
+    }
+
+    .h2_top {
+        padding-top: 100px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+
+    .h2_about1 {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+    }
+    .toptext {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(82, 81, 81);
+        padding-top: 50px;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
 }
